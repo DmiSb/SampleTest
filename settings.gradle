@@ -1,0 +1,4 @@
+include ':sample_api_client'
+include ':sample_view'
+include ':sample'
+rootProject.name = "TestSample"

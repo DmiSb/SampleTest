@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.main.MainActivity">
+
+    <ru.dmisb.sample_view.SampleView
+        android:id="@+id/info_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:logo_text="@string/logo"
+        app:logo_text_color="@color/black"
+        app:top_box_color="@color/white"
+        app:bottom_box_color="@color/red"
+        app:bonuses_text_color="@color/black"
+        app:hint_text_color="@color/gray"
+        app:top_box_height="150dp"
+        app:bottom_box_height="200dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

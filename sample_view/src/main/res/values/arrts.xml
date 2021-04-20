@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SampleView">
+        <attr name="top_box_color" format="color"/>
+        <attr name="top_box_height" format="dimension"/>
+        <attr name="bottom_box_color" format="color"/>
+        <attr name="bottom_box_height" format="dimension"/>
+        <attr name="logo_text" format="string"/>
+        <attr name="logo_text_color" format="color"/>
+        <attr name="bonuses_text_color" format="color"/>
+        <attr name="hint_text_color" format="color"/>
+    </declare-styleable>
+
+    <string name="burning_date">%s сгорит</string>
+
+    <plurals name="bonuses">
+        <item quantity="zero">%d бонусов</item>
+        <item quantity="one">%d бонус</item>
+        <item quantity="two">%d бонуса</item>
+        <item quantity="few">%d бонуса</item>
+        <item quantity="many">%d бонусов</item>
+        <item quantity="other">%d бонусов</item>
+    </plurals>
+</resources>
